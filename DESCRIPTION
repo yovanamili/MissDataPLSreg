@@ -1,0 +1,12 @@
+Package: MissDataPLSreg
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Giovana Ciprián
+Maintainer: Giovana Ciprián <yovanamili@gmail.com>
+Description: This pakage will help us to impute missing data and find 
+              the number of components in a PLS regression.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
