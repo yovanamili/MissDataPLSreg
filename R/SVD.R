@@ -8,7 +8,7 @@
 #'
 #' @examples
 #' SVDimp <- SVDImputation(dataX = "Cornell",Ncomp = 5)
-  newDImputation <- function(dataX, Ncomp){
+  newSVDImputation <- function(dataX, Ncomp){
   dataX<-impute.svd(dataX,k=Ncomp,maxiter=1000)$x
   return(dataX)
 }
